@@ -1,1 +1,4 @@
-
+提升bert的能力大体上可以分为几个方向
+	a、在embedding上添加扰动， 例如SimCSE、R-Drop ConSERT
+	b、对bert的输出进行处理（比如bert-flow[EMNLP 2020]，bert-whitening)
+    c、不断的挑战更有难度的预训练任务，比如NSP改成SOP（Sentence Order Prediction），通过UniLM变成各种生成任务等等。
